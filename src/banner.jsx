@@ -11,7 +11,6 @@ const SBanner = styled.div`
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
-	filter: grayscale(70%);
 	
 	@media ${device.tablet} {
 		height: 20rem;
@@ -30,7 +29,7 @@ const SBannerFlex = styled.div`
 	
 	text-align: left;
 	color: white;
-	text-shadow: 0.2rem 0.2rem 0.3rem gray;
+	text-shadow: 0.2rem 0.2rem 0.3rem black;
 	font-size: 2rem;
 	
 	@media ${device.desktop} {

@@ -10,7 +10,6 @@ const SLogoSmall = styled.img`
 	display: block;
 	margin-left: 0.5rem;
 	height: 50%;
-	transition: display 0.1s;
 	
 	@media ${device.tablet} {
 		display: none;
